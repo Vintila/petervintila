@@ -1,0 +1,5 @@
+timezone: Australia/Perth
+gems:
+- kramdown
+
+markdown: kramdown
