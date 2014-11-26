@@ -14,7 +14,7 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-    font-family: 'Noto-Sans', sans-serif; /*$base-font-family*/
+    font-family: 'Open Sans', sans-serif; /*$base-font-family*/
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
@@ -81,6 +81,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
+    color: #C00000;
 }
 
 
