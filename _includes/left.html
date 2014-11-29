@@ -1,7 +1,36 @@
 <div class="site-nav-div">
 <nav class="site-nav">
-      <a href="../" class="menu-icon">Home</a> </br>
-      <a href="about/" class="menu-icon">About</a> </br>
-      <a href="writings/" class="menu-icon">Writings</a> </br>
-    </nav>
+      	<a href="/" class="menu-icon">Home</a> </br>
+
+      	<span class="menu-icon">Climate Change</span></br>
+	<ul class="post-nav-list">
+	{% for post in site.categories.climate-change %}
+	<li> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </li>
+	{% endfor %}
+	</ul>
+	<span class="menu-icon">Midland University</span></br>
+	<ul class="post-nav-list">
+		{% for post in site.categories.midland-university %}
+		<li> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </li>
+		{% endfor %}
+	</ul>
+	<span class="menu-icon">Neoliberalism and Social Democracy</span></br>
+	<ul class="post-nav-list">
+		{% for post in site.categories.neoliberalism %}
+		<li> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </li>
+		{% endfor %}
+	</ul>
+      	<span class="menu-icon">Personal</span></br>
+	<ul class="post-nav-list">
+		{% for post in site.categories.personal %}
+		<li> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </li>
+		{% endfor %}
+	</ul>
+      	<span class="menu-icon">Transport and Urban Planning</span></br>
+	<ul class="post-nav-list">
+		{% for post in site.categories.transport %}
+		<li> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </li>
+		{% endfor %}
+	</ul>
+</nav>
 </div>

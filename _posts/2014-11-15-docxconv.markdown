@@ -1,7 +1,7 @@
 ---
 layout: post
 title : Midland, Where's That Town Again?
-categories: [Midland University]
+category: [Midland-University]
 ---
 
 ###### Written: June 2002
