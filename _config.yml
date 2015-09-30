@@ -3,3 +3,5 @@ gems:
 - kramdown
 
 markdown: kramdown
+
+exclude: [Gemfile, Gemfile.lock]
